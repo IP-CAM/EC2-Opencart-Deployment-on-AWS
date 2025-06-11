@@ -30,7 +30,7 @@ This project demonstrates how to deploy the OpenCart e-commerce platform on an E
 
 | Feature                             | Screenshot File             |
 |-------------------------------------|-----------------------------|
-| EC2 Instance Configuration          | `ec2-instance.png`          |
+| EC2 Instance Configuration          | `![Image](https://github.com/user-attachments/assets/18b73f56-35a3-4a4f-b1a9-b6135693d1bb)`          |
 | OpenCart Homepage via Elastic IP    | `opencart-homepage.png`     |
 | EBS Volume Mounted                  | `ebs-mount.png`             |
 | User Data Script in EC2 Launch      | `user-data-script.png`      |
