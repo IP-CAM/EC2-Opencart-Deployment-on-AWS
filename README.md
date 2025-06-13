@@ -92,6 +92,7 @@ Attach this role to EC2 instance.
 
 🖼️ Screenshots (Upload in /screenshots folder)
 EC2 running
+![Image](https://github.com/user-attachments/assets/67a55780-5f27-42eb-8cec-3e56c3632efd)
 
 EBS attached and mounted
 
@@ -118,7 +119,6 @@ sudo systemctl restart httpd
 php -v
 
 
-![Image](https://github.com/user-attachments/assets/67a55780-5f27-42eb-8cec-3e56c3632efd)
 
 
 
