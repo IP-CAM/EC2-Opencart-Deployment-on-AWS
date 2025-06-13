@@ -26,6 +26,9 @@ SSH (Port 22): Your IP
 
 Key Pair: Create/download one
 
+## EC2 running
+![Image](https://github.com/user-attachments/assets/67a55780-5f27-42eb-8cec-3e56c3632efd)
+
 User Data:
 
 ```bash
@@ -43,6 +46,9 @@ rm -rf upload opencart-3.0.3.8.zip
 sudo chown -R apache:apache /var/www/html
 sudo chmod -R 755 /var/www/html
 ```
+
+![Image](https://github.com/user-attachments/assets/0b658fc1-d6ba-4b1f-b528-37d6b08643e7)
+
 ### ✅ Step 2: Attach and Mount EBS Volume
 Create Volume (20 GiB, encrypted):
 AZ: Same as EC2 (e.g., us-east-1a)
@@ -55,6 +61,9 @@ Attach Volume:
 Use /dev/xvdf as device name.
 
 Mount Volume (via SSH):
+
+## EBS attached and mounted
+![Image](https://github.com/user-attachments/assets/f94ce99a-1f71-4d99-a168-d57b00a8e29c)
 
 ```bash
 sudo mkfs -t ext4 /dev/xvdf
@@ -88,23 +97,15 @@ IAM Role Policy:
   "Resource": ["arn:aws:s3:::your-bucket-name/*"]
 }
 ```
-Attach this role to EC2 instance.
 
-## 🖼️ Screenshots (Upload in /screenshots folder)
-EC2 running
-![Image](https://github.com/user-attachments/assets/67a55780-5f27-42eb-8cec-3e56c3632efd)
-
-EBS attached and mounted
-![Image](https://github.com/user-attachments/assets/f94ce99a-1f71-4d99-a168-d57b00a8e29c)
-
-OpenCart homepage via IP
-![Image](https://github.com/user-attachments/assets/acd61a83-3133-4996-91a1-ae01e20457e7)
-
-CloudWatch (if using IAM Role)
+## CloudWatch (if using IAM Role)
 ![Image](https://github.com/user-attachments/assets/73d0c7cb-1db2-4ed9-881f-939eb09dc0c9)
 
-Final directory structure
-![Image](https://github.com/user-attachments/assets/0b658fc1-d6ba-4b1f-b528-37d6b08643e7)
+Attach this role to EC2 instance.
+
+## OpenCart homepage via IP
+![Image](https://github.com/user-attachments/assets/acd61a83-3133-4996-91a1-ae01e20457e7)
+
 
 ## 💻 CLI History (save this as cli-commands.txt or a GitHub branch) 
 ```bash
