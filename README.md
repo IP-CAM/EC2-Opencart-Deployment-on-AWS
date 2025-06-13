@@ -106,7 +106,7 @@ CloudWatch (if using IAM Role)
 Final directory structure
 ![Image](https://github.com/user-attachments/assets/0b658fc1-d6ba-4b1f-b528-37d6b08643e7)
 
-## 💻 CLI History (save this as cli-commands.txt or a GitHub branch)
+## 💻 CLI History (save this as cli-commands.txt or a GitHub branch) 
 ```bash
 sudo mkfs.ext4/dev/xvdbf
 sudo mkfs -t ext4 /dev/xvdbf
