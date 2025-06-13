@@ -1,4 +1,4 @@
-🛒 EC2 Lab – Deploy an E-Commerce Web Server (GUI Mode)
+# 🛒 EC2 Lab – Deploy an E-Commerce Web Server (GUI Mode)
 📌 Objective
 Deploy an e-commerce platform (OpenCart) on an Amazon Linux EC2 instance using AWS GUI and CLI. Configure storage with encrypted EBS, assign an Elastic IP, and optionally attach an IAM role for S3 backup.
 
