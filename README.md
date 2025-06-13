@@ -95,12 +95,16 @@ EC2 running
 ![Image](https://github.com/user-attachments/assets/67a55780-5f27-42eb-8cec-3e56c3632efd)
 
 EBS attached and mounted
+![Image](https://github.com/user-attachments/assets/f94ce99a-1f71-4d99-a168-d57b00a8e29c)
 
 OpenCart homepage via IP
+![Image](https://github.com/user-attachments/assets/acd61a83-3133-4996-91a1-ae01e20457e7)
 
 CloudWatch (if using IAM Role)
+![Image](https://github.com/user-attachments/assets/73d0c7cb-1db2-4ed9-881f-939eb09dc0c9)
 
 Final directory structure
+![Image](https://github.com/user-attachments/assets/0b658fc1-d6ba-4b1f-b528-37d6b08643e7)
 
 💻 CLI History (save this as cli-commands.txt or a GitHub branch)
 bash
